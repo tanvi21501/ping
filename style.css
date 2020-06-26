@@ -1,19 +1,23 @@
-
-#image {
-  height: 50px;
-  width: 50%;
-  float: right;
-  margin: 30px;
-  padding: 35px;
-  position: relative;
-  left: 270px;
-  top: 80px;
-
+body{
+overflow-x: hidden;
 }
+#collapseExample{
+  width: 100%;
+}
+#mainmag{
+  width: 250px;
+  height: 350px;
+  float: right;
+  position: relative;
+  right: 200px;
+  top: 110px;
+}
+
 .btn{
   position: relative;
-  left: 1110px;
+  float: right;
   top: 50px;
+  right: 290px;
 }
 .card{
   position: relative;
@@ -21,6 +25,7 @@
   background-color:#00ced1; 
   height: 1000px;
   width: 100%;
+
 }
 .buttons{
   text-align: center;
@@ -32,7 +37,8 @@
   font-size:23px;
   position: relative;
   left: 100px;
-  top: 100px;
+  top: 60px;
+  bottom: 100px;
 
         }
 .button{
@@ -63,6 +69,7 @@
   background-color: black;
   position: relative;
   top: 20px;
+  overflow-x: hidden;
 
 }
 #magazine{
@@ -214,4 +221,32 @@ body {
 }
 .gallery__item--8:hover{
 	transform: scale(1.09);
+}
+@media (max-width: 768px){
+ .card{
+  width: 100%;
+ }
+ .magazine{
+  width: 100%;
+ }
+ .para{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 100%;
+ }
+ #mainmag{
+  left: 10px;
+  width: 50%;a
+
+ }
+#heading1{
+  font-size: 350%;
+  width: 100%;
+
+}
+#magazine{
+ 
+}
+
 }
